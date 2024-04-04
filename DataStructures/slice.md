@@ -45,3 +45,22 @@ list := make([]int, 5)
 Возможно переполнение
 
 https://gist.github.com/GimmyHchs/33bd06e68d72a913a8587b09d41b50d0
+
+
+```go
+list := make([]int,4,4)
+list2 := append(list,1)
+list[0]=5
+list2[0]=9
+fmt.Println(list)
+fmt.Println(list2)
+```
+
+```go
+list := make([]int,4,5)
+list2 := append(list,1)
+list[0]=5
+list2[0]=9
+fmt.Println(list)
+fmt.Println(list2)
+```
