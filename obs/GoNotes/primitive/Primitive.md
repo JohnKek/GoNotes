@@ -1,0 +1,6 @@
+[[new]]
+[[string]]
+[[complex]]
+[[const]]
+[[float]]
+[[int]]

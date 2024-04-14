@@ -1,0 +1,191 @@
+{
+  "main": {
+    "id": "499c01f0a1b08757",
+    "type": "split",
+    "children": [
+      {
+        "id": "659b8e504d52c092",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4e544ddce08bb1dd",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2a3282263114330b",
+    "type": "split",
+    "children": [
+      {
+        "id": "43320d28feb32cd1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ca2b89974a1fd04b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d47fbb7a3c11c452",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d93914ccd0972f47",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b6064cef6f3de2a8",
+    "type": "split",
+    "children": [
+      {
+        "id": "8a0d3297fbcb5304",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "07c805b9b6ba8838",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0d5a2e700e73958d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "83b9fdec06623748",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f3b535e53e3a50ee",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "4e544ddce08bb1dd",
+  "lastOpenFiles": [
+    "Errors/Errors.md",
+    "GO.md",
+    "primitive/Primitive.md",
+    "libs/Libs.md",
+    "DataStructures/DataStructures.md",
+    "concurrency/channels.md",
+    "concurrency/Concurency.md",
+    "libs/crypto/sha256.md",
+    "Untitled.canvas",
+    "concurrency/goroutines.md",
+    "Errors/CustomError.md",
+    "primitive/complex.md",
+    "libs/net/http.md",
+    "libs/net",
+    "libs/flagTest1.go",
+    "libs/flagTest1.exe",
+    "libs/flag.md",
+    "libs/crypto",
+    "libs",
+    "Errors/Strategy.md",
+    "Errors/panic.md",
+    "Errors/Deffer.md",
+    "Errors/Error.md",
+    "Errors/deffer.go",
+    "Errors",
+    "DataStructures/slice.md",
+    "DataStructures/map.md",
+    "DataStructures/json.md",
+    "DataStructures/img_9.png",
+    "DataStructures/img_8.png",
+    "DataStructures/img_7.png",
+    "DataStructures/img_6.png",
+    "DataStructures/img_5.png",
+    "DataStructures/img_4.png",
+    "DataStructures/img_3.png",
+    "DataStructures/img_2.png",
+    "DataStructures/img_10.png",
+    "DataStructures/img.png",
+    "DataStructures/array.md",
+    "DataStructures",
+    "concurrency",
+    "some_usefull_data/lifehack.md",
+    "some_usefull_data",
+    "primitive/string.md",
+    "primitive/new.md",
+    "primitive/int.md",
+    "primitive/float.md"
+  ]
+}
