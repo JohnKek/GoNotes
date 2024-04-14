@@ -11,8 +11,12 @@
             "id": "4e544ddce08bb1dd",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "concurrency/Select.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "concurrency/Select.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "concurrency/Select.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "concurrency/Select.md"
+              }
             }
           }
         ]
@@ -138,15 +146,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4e544ddce08bb1dd",
+  "active": "ca2b89974a1fd04b",
   "lastOpenFiles": [
+    "concurrency/Select.md~",
+    "concurrency/Semaphor.md",
+    "concurrency/Select.md",
+    "concurrency/Semaphor.md~",
+    "concurrency/Cycles.md",
+    "concurrency/Concurency.md",
     "Errors/Errors.md",
     "GO.md",
     "primitive/Primitive.md",
     "libs/Libs.md",
     "DataStructures/DataStructures.md",
     "concurrency/channels.md",
-    "concurrency/Concurency.md",
     "libs/crypto/sha256.md",
     "Untitled.canvas",
     "concurrency/goroutines.md",
@@ -181,11 +194,6 @@
     "DataStructures/array.md",
     "DataStructures",
     "concurrency",
-    "some_usefull_data/lifehack.md",
-    "some_usefull_data",
-    "primitive/string.md",
-    "primitive/new.md",
-    "primitive/int.md",
-    "primitive/float.md"
+    "some_usefull_data/lifehack.md"
   ]
 }
