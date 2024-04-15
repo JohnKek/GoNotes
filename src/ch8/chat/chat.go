@@ -12,10 +12,14 @@ import (
 	"fmt"
 	"log"
 	"net"
+	"time"
 )
 
-//!+broadcaster
-type client chan<- string // an outgoing message channel
+// !+broadcaster
+type client struct {
+	name string
+	ch   chan<- string
+}
 
 var (
 	entering = make(chan client)
@@ -31,40 +35,66 @@ func broadcaster() {
 			// Broadcast incoming message to all
 			// clients' outgoing message channels.
 			for cli := range clients {
-				cli <- msg
+				cli.ch <- msg
 			}
 
 		case cli := <-entering:
 			clients[cli] = true
+			for c := range clients {
+				cli.ch <- "User " + c.name + " is online"
+			}
 
-		case cli := <-leaving:
-			delete(clients, cli)
-			close(cli)
+		case c := <-leaving:
+			delete(clients, c)
+			close(c.ch)
+			for cli := range clients {
+				cli.ch <- "User " + c.name + " has left"
+			}
 		}
 	}
 }
 
 //!-broadcaster
 
-//!+handleConn
+// !+handleConn
 func handleConn(conn net.Conn) {
 	ch := make(chan string) // outgoing client messages
 	go clientWriter(conn, ch)
-
-	who := conn.RemoteAddr().String()
+	ch <- "Please enter your name: "
+	input := bufio.NewScanner(conn)
+	input.Scan()
+	who := input.Text()
 	ch <- "You are " + who
 	messages <- who + " has arrived"
-	entering <- ch
+	cliet := client{name: who, ch: ch}
+	entering <- cliet
 
-	input := bufio.NewScanner(conn)
-	for input.Scan() {
-		messages <- who + ": " + input.Text()
+	messageReceived := make(chan struct{}) // канал для сигнала о получении сообщения
+	go func() {
+		for input.Scan() {
+			messages <- who + ": " + input.Text()
+			messageReceived <- struct{}{} // отправляем сигнал о получении сообщения
+		}
+	}()
+	idleTimer := time.NewTimer(10 * time.Second)
+
+	for {
+		select {
+		case <-idleTimer.C:
+			leaving <- cliet
+			messages <- who + " has left"
+			err := conn.Close()
+			if err != nil {
+				return
+			}
+		case <-messageReceived:
+			if !idleTimer.Stop() {
+				<-idleTimer.C
+			}
+			idleTimer.Reset(10 * time.Second)
+		}
 	}
-	// NOTE: ignoring potential errors from input.Err()
 
-	leaving <- ch
-	messages <- who + " has left"
-	conn.Close()
 }
 
 func clientWriter(conn net.Conn, ch <-chan string) {
@@ -75,7 +105,7 @@ func clientWriter(conn net.Conn, ch <-chan string) {
 
 //!-handleConn
 
-//!+main
+// !+main
 func main() {
 	listener, err := net.Listen("tcp", "localhost:8000")
 	if err != nil {
