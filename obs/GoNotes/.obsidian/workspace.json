@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "concurrency/Select.md",
+                "file": "concurrency/pipeline.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "concurrency/Select.md",
+                "file": "concurrency/pipeline.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "concurrency/Select.md",
+                "file": "concurrency/pipeline.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "concurrency/Select.md"
+                "file": "concurrency/pipeline.md"
               }
             }
           }
@@ -146,11 +146,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ca2b89974a1fd04b",
+  "active": "4e544ddce08bb1dd",
   "lastOpenFiles": [
+    "concurrency/pipeline.md~",
+    "Cache/Pasted image 20240415003037.png",
+    "concurrency/channels.md",
+    "concurrency/pipeline.md",
+    "concurrency/channels.md~",
+    "concurrency/Select.md",
     "concurrency/Select.md~",
     "concurrency/Semaphor.md",
-    "concurrency/Select.md",
     "concurrency/Semaphor.md~",
     "concurrency/Cycles.md",
     "concurrency/Concurency.md",
@@ -159,7 +164,6 @@
     "primitive/Primitive.md",
     "libs/Libs.md",
     "DataStructures/DataStructures.md",
-    "concurrency/channels.md",
     "libs/crypto/sha256.md",
     "Untitled.canvas",
     "concurrency/goroutines.md",
@@ -177,7 +181,6 @@
     "Errors/Deffer.md",
     "Errors/Error.md",
     "Errors/deffer.go",
-    "Errors",
     "DataStructures/slice.md",
     "DataStructures/map.md",
     "DataStructures/json.md",
@@ -190,10 +193,6 @@
     "DataStructures/img_3.png",
     "DataStructures/img_2.png",
     "DataStructures/img_10.png",
-    "DataStructures/img.png",
-    "DataStructures/array.md",
-    "DataStructures",
-    "concurrency",
-    "some_usefull_data/lifehack.md"
+    "DataStructures/array.md"
   ]
 }
