@@ -76,7 +76,7 @@ func handleConn(conn net.Conn) {
 			messageReceived <- struct{}{} // отправляем сигнал о получении сообщения
 		}
 	}()
-	idleTimer := time.NewTimer(10 * time.Second)
+	idleTimer := time.NewTimer(1000 * time.Second)
 
 	for {
 		select {
@@ -91,7 +91,7 @@ func handleConn(conn net.Conn) {
 			if !idleTimer.Stop() {
 				<-idleTimer.C
 			}
-			idleTimer.Reset(10 * time.Second)
+			idleTimer.Reset(1000 * time.Second)
 		}
 	}
 
