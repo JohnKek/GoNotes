@@ -13,9 +13,9 @@ import (
 	"os"
 )
 
-//!+
+// !+
 func main() {
-	conn, err := net.Dial("tcp", "localhost:8000")
+	conn, err := net.Dial("tcp", "10.236.133.66:8000")
 	if err != nil {
 		log.Fatal(err)
 	}

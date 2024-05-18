@@ -32,21 +32,18 @@ func main() {
 				massege_number++
 			}
 		case 2:
-			var local int
-			var global int
-			if len(user[b]) == 0 {
-				local = 0
-			} else {
+			local := 0
+			global := 0
+			if len(user[b]) != 0 {
 				local = user[b][len(user[b])-1]
-			}
-			if len(global_messages) == 0 {
-				global = 0
-			} else {
-				global = global_messages[len(global_messages)-1]
-			}
-			fmt.Fprintln(out, int(math.Max(float64(global), float64(local))))
+				if len(global_messages) != 0 {
+					global = global_messages[len(global_messages)-1]
 
+				}
+				fmt.Fprintln(out, int(math.Max(float64(global), float64(local))))
+
+			}
 		}
-	}
 
+	}
 }

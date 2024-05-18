@@ -107,7 +107,7 @@ func clientWriter(conn net.Conn, ch <-chan string) {
 
 // !+main
 func main() {
-	listener, err := net.Listen("tcp", "localhost:8000")
+	listener, err := net.Listen("tcp", "10.236.133.66:8000")
 	if err != nil {
 		log.Fatal(err)
 	}
