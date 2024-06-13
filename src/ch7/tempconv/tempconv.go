@@ -31,7 +31,7 @@ type Value interface {
 //!-flagvalue
 */
 
-//!+celsiusFlag
+// !+celsiusFlag
 // *celsiusFlag satisfies the flag.Value interface.
 type celsiusFlag struct{ Celsius }
 
