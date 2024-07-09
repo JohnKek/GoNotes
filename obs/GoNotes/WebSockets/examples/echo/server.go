@@ -2,13 +2,9 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-//go:build ignore
-// +build ignore
-
 package main
 
 import (
-	"flag"
 	"html/template"
 	"log"
 	"net/http"
@@ -16,8 +12,7 @@ import (
 	"github.com/gorilla/websocket"
 )
 
-var addr = flag.String("addr", "localhost:8080", "http service address")
-
+var addr = "localhost:8080"
 var upgrader = websocket.Upgrader{} // use default options
 
 func echo(w http.ResponseWriter, r *http.Request) {
@@ -47,11 +42,10 @@ func home(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-	flag.Parse()
 	log.SetFlags(0)
 	http.HandleFunc("/echo", echo)
 	http.HandleFunc("/", home)
-	log.Fatal(http.ListenAndServe(*addr, nil))
+	log.Fatal(http.ListenAndServe(addr, nil))
 }
 
 var homeTemplate = template.Must(template.New("").Parse(`
