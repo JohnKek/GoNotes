@@ -1,0 +1,12 @@
+Where exists возвращает true если найдено совпадение
+
+MERGE INTO target_table AS t
+USING source_table AS s
+ON t.id = s.id
+WHEN MATCHED THEN
+    UPDATE SET
+        t.column1 = s.column1,
+        t.column2 = s.column2
+WHEN NOT MATCHED THEN
+    INSERT (id, column1, column2)
+    VALUES (s.id, s.column1, s.column2);
