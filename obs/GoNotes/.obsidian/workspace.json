@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CleanCode/Patterns/Command.md",
+                "file": "Nats/queue.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CleanCode/Patterns/Command.md",
+                "file": "Nats/queue.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CleanCode/Patterns/Command.md",
+                "file": "Nats/queue.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CleanCode/Patterns/Command.md"
+                "file": "Nats/queue.md"
               }
             }
           }
@@ -146,12 +146,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ca2b89974a1fd04b",
+  "active": "2dc8cb5cc0dae165",
   "lastOpenFiles": [
+    "Nats/docker-compose.yaml~",
+    "Nats/docker-compose.yaml",
+    "Nats/docker-compose",
+    "Nats/docker-compose.go~",
+    "Nats/docker-compose.go",
+    "Nats/go-nats-examples/api-examples/publish_bytes/main.go~",
+    "Cache/Pasted image 20240827012624.png",
+    "Nats/Request-Reply.md",
+    "Nats/queue.md",
+    "Cache/Pasted image 20240827011439.png",
+    "Nats/Core.md",
+    "Cache/Pasted image 20240827005946.png",
+    "Cache/Pasted image 20240827004420.png",
+    "Nats/nats.md",
+    "CleanCode/Patterns/Command.md",
     "CleanCode/Patterns/Fabric Method.md",
     "CleanCode/Patterns/Singleton.md",
     "Cache/Pasted image 20240820161742.png",
-    "CleanCode/Patterns/Command.md",
     "Cache/Pasted image 20240819130047.png",
     "Cache/Pasted image 20240819125610.png",
     "Cache/Pasted image 20240819125324.png",
@@ -162,11 +176,6 @@
     "CleanCode/Patterns/Go/singleton/syncOnce/main.go",
     "CleanCode/Patterns/Go/singleton/default/single.go",
     "CleanCode/Patterns/Go/singleton/default/output.txt",
-    "CleanCode/Patterns/Go/singleton/default/main.go",
-    "CleanCode/Patterns/Go/visitor/visitor.go",
-    "CleanCode/Patterns/Go/visitor/square.go",
-    "CleanCode/Patterns/Go/visitor/shape.go",
-    "CleanCode/Patterns/Go/visitor/rectangle.go",
     "CleanCode/Patterns/Go/README.md",
     "CleanCode/Patterns/Patterns.md",
     "Postgr/commands.md",
@@ -185,15 +194,6 @@
     "concurrency/Semaphor.md",
     "concurrency/Cycles.md",
     "GO.md",
-    "primitive/Primitive.md",
-    "libs/Libs.md",
-    "libs/crypto/sha256.md",
-    "concurrency/goroutines.md",
-    "Errors/CustomError.md",
-    "primitive/complex.md",
-    "DataStructures/img_9.png",
-    "DataStructures/img_8.png",
-    "DataStructures/img_7.png",
-    "DataStructures/img_6.png"
+    "primitive/Primitive.md"
   ]
 }
