@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JetClientState">
+    <option name="draftsState">
+      <draftsState>
+        <option name="requests">
+          <list>
+            <requestState>
+              <option name="id" value="9f161957-7221-42c7-aadb-1b6b5227f84e" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft" />
+              <option name="queryParams">
+                <list>
+                  <queryParamState>
+                    <option name="key" value="url" />
+                    <option name="value" value="https://github.com/antonaleks/DockerPractice/tree/master" />
+                  </queryParamState>
+                </list>
+              </option>
+              <option name="sortWeight" value="1000000" />
+              <option name="url" value="http://localhost:8080/shorten?url=https://github.com/antonaleks/DockerPractice/tree/master" />
+            </requestState>
+          </list>
+        </option>
+      </draftsState>
+    </option>
+    <option name="id" value="91b50a88-d723-484a-a8c1-7fd8ddf3daa5" />
+    <option name="version" value="3" />
+  </component>
+</project>

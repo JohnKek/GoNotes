@@ -2,3 +2,4 @@
 [[json]]
 [[map]]
 [[slice]]
+[[StructTags]]

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "659b8e504d52c092",
+        "id": "78fc91892a3424d1",
         "type": "tabs",
         "children": [
           {
-            "id": "4e544ddce08bb1dd",
+            "id": "2dc8cb5cc0dae165",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "concurrency/pipeline.md",
+                "file": "CleanCode/Patterns/Command.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "concurrency/pipeline.md",
+                "file": "CleanCode/Patterns/Command.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "concurrency/pipeline.md",
+                "file": "CleanCode/Patterns/Command.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "concurrency/pipeline.md"
+                "file": "CleanCode/Patterns/Command.md"
               }
             }
           }
@@ -146,53 +146,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4e544ddce08bb1dd",
+  "active": "ca2b89974a1fd04b",
   "lastOpenFiles": [
-    "concurrency/pipeline.md~",
+    "CleanCode/Patterns/Fabric Method.md",
+    "CleanCode/Patterns/Singleton.md",
+    "Cache/Pasted image 20240820161742.png",
+    "CleanCode/Patterns/Command.md",
+    "Cache/Pasted image 20240819130047.png",
+    "Cache/Pasted image 20240819125610.png",
+    "Cache/Pasted image 20240819125324.png",
+    "Cache/Pasted image 20240819125216.png",
+    "Untitled.canvas",
+    "CleanCode/Patterns/Go/singleton/syncOnce/syncOnce.go",
+    "CleanCode/Patterns/Go/singleton/syncOnce/output.txt",
+    "CleanCode/Patterns/Go/singleton/syncOnce/main.go",
+    "CleanCode/Patterns/Go/singleton/default/single.go",
+    "CleanCode/Patterns/Go/singleton/default/output.txt",
+    "CleanCode/Patterns/Go/singleton/default/main.go",
+    "CleanCode/Patterns/Go/visitor/visitor.go",
+    "CleanCode/Patterns/Go/visitor/square.go",
+    "CleanCode/Patterns/Go/visitor/shape.go",
+    "CleanCode/Patterns/Go/visitor/rectangle.go",
+    "CleanCode/Patterns/Go/README.md",
+    "CleanCode/Patterns/Patterns.md",
+    "Postgr/commands.md",
+    "CleanCode/Clean code.md",
+    "CleanCode/solid.md",
+    "StructTags.md",
+    "Errors/Errors.md",
+    "DataStructures/DataStructures.md",
+    "SQL/1.md",
+    "concurrency/Concurency.md",
+    "concurrency/Sinc/sinc.md",
+    "concurrency/pipeline.md",
     "Cache/Pasted image 20240415003037.png",
     "concurrency/channels.md",
-    "concurrency/pipeline.md",
-    "concurrency/channels.md~",
     "concurrency/Select.md",
-    "concurrency/Select.md~",
     "concurrency/Semaphor.md",
-    "concurrency/Semaphor.md~",
     "concurrency/Cycles.md",
-    "concurrency/Concurency.md",
-    "Errors/Errors.md",
     "GO.md",
     "primitive/Primitive.md",
     "libs/Libs.md",
-    "DataStructures/DataStructures.md",
     "libs/crypto/sha256.md",
-    "Untitled.canvas",
     "concurrency/goroutines.md",
     "Errors/CustomError.md",
     "primitive/complex.md",
-    "libs/net/http.md",
-    "libs/net",
-    "libs/flagTest1.go",
-    "libs/flagTest1.exe",
-    "libs/flag.md",
-    "libs/crypto",
-    "libs",
-    "Errors/Strategy.md",
-    "Errors/panic.md",
-    "Errors/Deffer.md",
-    "Errors/Error.md",
-    "Errors/deffer.go",
-    "DataStructures/slice.md",
-    "DataStructures/map.md",
-    "DataStructures/json.md",
     "DataStructures/img_9.png",
     "DataStructures/img_8.png",
     "DataStructures/img_7.png",
-    "DataStructures/img_6.png",
-    "DataStructures/img_5.png",
-    "DataStructures/img_4.png",
-    "DataStructures/img_3.png",
-    "DataStructures/img_2.png",
-    "DataStructures/img_10.png",
-    "DataStructures/array.md"
+    "DataStructures/img_6.png"
   ]
 }
