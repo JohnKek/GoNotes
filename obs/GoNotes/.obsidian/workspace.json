@@ -148,12 +148,18 @@
   },
   "active": "2dc8cb5cc0dae165",
   "lastOpenFiles": [
+    "Nats/go-nats-examples/api-examples/publish_bytes/Dockerfile~",
+    "Nats/go-nats-examples/api-examples/publish_bytes/go.sum",
+    "Nats/go-nats-examples/api-examples/publish_bytes/go.mod",
+    "Nats/images.md~",
+    "Nats/images.md",
+    "Nats/go-nats-examples/api-examples/subscribe_sync/main.go~",
+    "Nats/go-nats-examples/api-examples/publish_bytes/main.go~",
+    "Nats/go-nats-examples/api-examples/publish_bytes/Dockerfile",
     "Nats/docker-compose.yaml~",
     "Nats/docker-compose.yaml",
     "Nats/docker-compose",
     "Nats/docker-compose.go~",
-    "Nats/docker-compose.go",
-    "Nats/go-nats-examples/api-examples/publish_bytes/main.go~",
     "Cache/Pasted image 20240827012624.png",
     "Nats/Request-Reply.md",
     "Nats/queue.md",
@@ -171,11 +177,6 @@
     "Cache/Pasted image 20240819125324.png",
     "Cache/Pasted image 20240819125216.png",
     "Untitled.canvas",
-    "CleanCode/Patterns/Go/singleton/syncOnce/syncOnce.go",
-    "CleanCode/Patterns/Go/singleton/syncOnce/output.txt",
-    "CleanCode/Patterns/Go/singleton/syncOnce/main.go",
-    "CleanCode/Patterns/Go/singleton/default/single.go",
-    "CleanCode/Patterns/Go/singleton/default/output.txt",
     "CleanCode/Patterns/Go/README.md",
     "CleanCode/Patterns/Patterns.md",
     "Postgr/commands.md",
@@ -193,7 +194,6 @@
     "concurrency/Select.md",
     "concurrency/Semaphor.md",
     "concurrency/Cycles.md",
-    "GO.md",
-    "primitive/Primitive.md"
+    "GO.md"
   ]
 }
