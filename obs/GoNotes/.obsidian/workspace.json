@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Nats/queue.md",
+                "file": "Nats/Request-Reply.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Nats/queue.md",
+                "file": "Nats/Request-Reply.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Nats/queue.md",
+                "file": "Nats/Request-Reply.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Nats/queue.md"
+                "file": "Nats/Request-Reply.md"
               }
             }
           }
@@ -148,21 +148,20 @@
   },
   "active": "2dc8cb5cc0dae165",
   "lastOpenFiles": [
-    "Nats/go-nats-examples/api-examples/publish_bytes/Dockerfile~",
-    "Nats/go-nats-examples/api-examples/publish_bytes/go.sum",
-    "Nats/go-nats-examples/api-examples/publish_bytes/go.mod",
-    "Nats/images.md~",
-    "Nats/images.md",
+    "Nats/queue.md",
     "Nats/go-nats-examples/api-examples/subscribe_sync/main.go~",
     "Nats/go-nats-examples/api-examples/publish_bytes/main.go~",
-    "Nats/go-nats-examples/api-examples/publish_bytes/Dockerfile",
-    "Nats/docker-compose.yaml~",
-    "Nats/docker-compose.yaml",
-    "Nats/docker-compose",
-    "Nats/docker-compose.go~",
+    "Nats/go-nats-examples/api-examples/pbls1.yaml",
+    "Nats/pbls1.yaml~",
+    "Nats/go-nats-examples/api-examples/subscribe_sync/Dockerfile~",
+    "Nats/go-nats-examples/api-examples/subscribe_sync/Dockerfile",
+    "Nats/images.md~",
+    "Nats/go-nats-examples/api-examples/subscribe_sync/go.sum",
+    "Nats/go-nats-examples/api-examples/subscribe_sync/go.mod",
+    "Nats/pbls1.yaml",
+    "Nats/images.md",
     "Cache/Pasted image 20240827012624.png",
     "Nats/Request-Reply.md",
-    "Nats/queue.md",
     "Cache/Pasted image 20240827011439.png",
     "Nats/Core.md",
     "Cache/Pasted image 20240827005946.png",
