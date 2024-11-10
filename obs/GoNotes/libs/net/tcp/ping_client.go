@@ -25,11 +25,11 @@ func main() {
 		fmt.Println("Error while sending number:", err)
 		return
 	}
-	_, err = conn.Read(buffer)
-	if err != nil {
-		fmt.Println("Error while reading:", err)
-		return
-	}
+	/*	_, err = conn.Read(buffer)
+		if err != nil {
+			fmt.Println("Error while reading:", err)
+			return
+		}*/
 
 	for i := int32(0); i < 15; i++ {
 		// Отправляем сообщение серверу
