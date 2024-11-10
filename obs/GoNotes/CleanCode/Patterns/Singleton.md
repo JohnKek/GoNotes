@@ -64,3 +64,56 @@ func getInstance() *single {
     return singleInstance  
 }
 ```
+
+
+```go
+package main
+
+import (
+	"fmt"
+	"sync"
+)
+
+type singleton struct {
+	value int
+	mu    sync.Mutex // Мьютекс для обеспечения потокобезопасности
+}
+
+var instance *singleton
+var once sync.Once
+
+// GetInstance возвращает единственный экземпляр синглтона
+func GetInstance() *singleton {
+	once.Do(func() {
+		fmt.Println("Creating single instance now.")
+		instance = &singleton{}
+	})
+	return instance
+}
+
+// SetValue устанавливает значение в синглтоне
+func (s *singleton) SetValue(val int) {
+	s.mu.Lock()         // Блокируем мьютекс перед изменением
+	defer s.mu.Unlock() // Освобождаем мьютекс после изменения
+	s.value = val
+}
+
+// GetValue возвращает текущее значение синглтона
+func (s *singleton) GetValue() int {
+	s.mu.Lock()         // Блокируем мьютекс перед чтением
+	defer s.mu.Unlock() // Освобождаем мьютекс после чтения
+	return s.value
+}
+
+func main() {
+	s1 := GetInstance()
+	s1.SetValue(42)
+
+	s2 := GetInstance()
+	fmt.Println("Value from s2:", s2.GetValue()) // Вывод: Value from s2: 42
+
+	// Проверяем, что s1 и s2 указывают на один и тот же экземпляр
+	fmt.Println("s1 and s2 are the same instance:", s1 == s2) // true
+}
+
+```
