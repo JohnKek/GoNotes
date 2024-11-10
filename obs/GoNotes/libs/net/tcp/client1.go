@@ -9,14 +9,8 @@ import (
 )
 
 func main() {
-	arguments := os.Args
-	if len(arguments) == 1 {
-		fmt.Println("Please provide host:port.")
-		return
-	}
 
-	CONNECT := arguments[1]
-	c, err := net.Dial("tcp", CONNECT)
+	c, err := net.Dial("tcp", ":8080")
 	if err != nil {
 		fmt.Println(err)
 		return

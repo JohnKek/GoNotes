@@ -57,7 +57,7 @@ func handleConnection(conn net.Conn) {
 
 	fmt.Printf("Number of packets to receive: %d\n", number)
 
-	for i := 0; i < 15; i++ {
+	for i := 0; i < 10; i++ {
 		// Читаем данные из соединения
 		n, err := conn.Read(buffer)
 		if err != nil {
