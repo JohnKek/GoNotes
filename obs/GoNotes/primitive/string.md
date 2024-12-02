@@ -23,3 +23,4 @@ fmt.Println(strconv.FormatInt(int64(x), 2)) // "1111011"
 		fmt.Println(num) // Выводит: 456
 	// В десятичной системе счисления, до 64 битов: у, err := strconv.Parselnt("123", 10, 64)
 ```
+
