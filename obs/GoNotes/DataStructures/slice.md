@@ -64,3 +64,8 @@ list2[0]=9
 fmt.Println(list)
 fmt.Println(list2)
 ```
+
+Удаление лемента 
+```go
+aSlice = append(aSlice[:i], aSlice[i+1:]...)
+```
