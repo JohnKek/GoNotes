@@ -1,6 +1,14 @@
 package main
 
+import (
+	"fmt"
+	"sync/atomic"
+)
+
 func main() {
-	var ch chan int // Неинициализированный канал
-	ch <- 1         // Попытка записи
+	a := atomic.Uint32{}
+	a.Store(2)
+	fmt.Println(a.Load())
+	a.Add(^uint32(0))
+	fmt.Println(a.Load())
 }
