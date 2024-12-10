@@ -14,7 +14,7 @@ type Data struct {
 	Alias string    `crypto:"false"`
 }
 
-func mapper(v interface{}) map[string]interface{} {
+func encrypt(v interface{}) map[string]interface{} {
 	result := make(map[string]interface{})
 	val := reflect.ValueOf(v)
 	if val.Kind() == reflect.Ptr {
@@ -37,6 +37,6 @@ func mapper(v interface{}) map[string]interface{} {
 
 func main() {
 	data := Data{Value: 30123, Date: time.Now(), Alias: "Test"}
-	dataMap := mapper(&data)
+	dataMap := encrypt(&data)
 	fmt.Println(dataMap)
 }
