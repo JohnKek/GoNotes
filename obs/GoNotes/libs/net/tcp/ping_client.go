@@ -31,7 +31,7 @@ func main() {
 			return
 		}*/
 
-	for i := int32(0); i < 15; i++ {
+	for i := int32(0); i < 10; i++ {
 		// Отправляем сообщение серверу
 		_, err := conn.Write([]byte(message))
 		if err != nil {

@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "78fc91892a3424d1",
+        "id": "04d0e9f2f8c63533",
         "type": "tabs",
         "children": [
           {
-            "id": "2dc8cb5cc0dae165",
+            "id": "667d1de1855229c3",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Untitled 1.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
-              }
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -42,7 +37,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -57,7 +54,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -65,7 +64,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -88,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled 1.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +96,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
             }
           },
           {
@@ -105,10 +107,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled 1.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
             }
           },
           {
@@ -119,7 +122,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -127,9 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Untitled 1.canvas"
-              }
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Outline"
             }
           }
         ]
@@ -148,10 +153,31 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ca2b89974a1fd04b",
+  "active": "667d1de1855229c3",
   "lastOpenFiles": [
-    "Untitled 1.canvas",
+    "libs/net/Auth.md",
     "Nats/Core.md",
+    "DependencyInjection/DI.md",
+    "GO.md",
+    "runtimeGo/runtimeGO.md",
+    "DependencyInjection/WIRE Google.md",
+    "Cache/Pasted image 20250120020805.png",
+    "DependencyInjection",
+    "Cache/Pasted image 20240415003037.png",
+    "runtimeGo/somedata.md",
+    "Cache/Pasted image 20250120020608.png",
+    "Cache/Pasted image 20250120020435.png",
+    "Cache/Pasted image 20250120015634.png",
+    "Cache/Pasted image 20250120015459.png",
+    "patterns/competing-consumer.md",
+    "patterns",
+    "runtimeGo",
+    "Tests/mockery.md",
+    "Errors/Errors.md",
+    "closure.md",
+    "CleanCode/Patterns/Go/prototype/ex.md",
+    "Untitled.canvas",
+    "Untitled 1.canvas",
     "Nats/Request-Reply.md",
     "Nats/queue.md",
     "Nats/go-nats-examples/api-examples/subscribe_sync/main.go~",
@@ -161,9 +187,6 @@
     "Nats/go-nats-examples/api-examples/subscribe_sync/Dockerfile~",
     "Nats/go-nats-examples/api-examples/subscribe_sync/Dockerfile",
     "Nats/images.md~",
-    "Nats/go-nats-examples/api-examples/subscribe_sync/go.sum",
-    "Nats/go-nats-examples/api-examples/subscribe_sync/go.mod",
-    "Nats/pbls1.yaml",
     "Nats/images.md",
     "Cache/Pasted image 20240827012624.png",
     "Cache/Pasted image 20240827011439.png",
@@ -173,29 +196,12 @@
     "CleanCode/Patterns/Command.md",
     "CleanCode/Patterns/Fabric Method.md",
     "CleanCode/Patterns/Singleton.md",
-    "Cache/Pasted image 20240820161742.png",
-    "Cache/Pasted image 20240819130047.png",
-    "Cache/Pasted image 20240819125610.png",
-    "Cache/Pasted image 20240819125324.png",
-    "Cache/Pasted image 20240819125216.png",
-    "Untitled.canvas",
     "CleanCode/Patterns/Go/README.md",
     "CleanCode/Patterns/Patterns.md",
     "Postgr/commands.md",
     "CleanCode/Clean code.md",
     "CleanCode/solid.md",
     "StructTags.md",
-    "Errors/Errors.md",
-    "DataStructures/DataStructures.md",
-    "SQL/1.md",
-    "concurrency/Concurency.md",
-    "concurrency/Sinc/sinc.md",
-    "concurrency/pipeline.md",
-    "Cache/Pasted image 20240415003037.png",
-    "concurrency/channels.md",
-    "concurrency/Select.md",
-    "concurrency/Semaphor.md",
-    "concurrency/Cycles.md",
-    "GO.md"
+    "DataStructures/DataStructures.md"
   ]
 }
