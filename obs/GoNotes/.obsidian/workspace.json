@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DependencyInjection/Wire Tutorial.md",
+                "file": "DependencyInjection/Code Gen.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Wire Tutorial"
+              "title": "Code Gen"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DependencyInjection/Wire Tutorial.md",
+                "file": "DependencyInjection/Code Gen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Wire Tutorial"
+              "title": "Backlinks for Code Gen"
             }
           },
           {
@@ -160,15 +160,26 @@
   },
   "active": "667d1de1855229c3",
   "lastOpenFiles": [
+    "DependencyInjection/Tutorial/wire_gen.go",
+    "DependencyInjection/Tutorial/wire.go",
+    "DependencyInjection/Tutorial/main.go",
+    "DependencyInjection/Tutorial",
+    "DependencyInjection/wire_gen.go",
+    "DependencyInjection/main.go~",
+    "DependencyInjection/wire.go~",
+    "DependencyInjection/main.go",
+    "DependencyInjection/codeGen.go~",
+    "DependencyInjection/codeGen.go",
+    "DependencyInjection/wire.go",
+    "DependencyInjection/Wire Tutorial Default ex.md",
+    "DependencyInjection/Code Gen.md",
     "DependencyInjection/WIRE Google.md",
-    "DependencyInjection/Wire Tutorial.md",
     "DependencyInjection/DI.md",
     "libs/net/Auth.md",
     "Nats/Core.md",
     "GO.md",
     "runtimeGo/runtimeGO.md",
     "Cache/Pasted image 20250120020805.png",
-    "DependencyInjection",
     "Cache/Pasted image 20240415003037.png",
     "runtimeGo/somedata.md",
     "Cache/Pasted image 20250120020608.png",
@@ -176,8 +187,6 @@
     "Cache/Pasted image 20250120015634.png",
     "Cache/Pasted image 20250120015459.png",
     "patterns/competing-consumer.md",
-    "patterns",
-    "runtimeGo",
     "Tests/mockery.md",
     "Errors/Errors.md",
     "closure.md",
@@ -186,13 +195,6 @@
     "Untitled 1.canvas",
     "Nats/Request-Reply.md",
     "Nats/queue.md",
-    "Nats/go-nats-examples/api-examples/subscribe_sync/main.go~",
-    "Nats/go-nats-examples/api-examples/publish_bytes/main.go~",
-    "Nats/go-nats-examples/api-examples/pbls1.yaml",
-    "Nats/pbls1.yaml~",
-    "Nats/go-nats-examples/api-examples/subscribe_sync/Dockerfile~",
-    "Nats/go-nats-examples/api-examples/subscribe_sync/Dockerfile",
-    "Nats/images.md~",
     "Nats/images.md",
     "Cache/Pasted image 20240827012624.png",
     "Cache/Pasted image 20240827011439.png",
@@ -205,8 +207,6 @@
     "CleanCode/Patterns/Go/README.md",
     "CleanCode/Patterns/Patterns.md",
     "Postgr/commands.md",
-    "CleanCode/Clean code.md",
-    "CleanCode/solid.md",
-    "StructTags.md"
+    "CleanCode/Clean code.md"
   ]
 }

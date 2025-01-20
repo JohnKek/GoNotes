@@ -1,1 +1,1 @@
-[[Wire Tutorial]]
+[[Wire Tutorial Default ex]]
