@@ -21,6 +21,24 @@ fmt.Println()
 ```
 
 ### Тело ответа
+```go
+type Response struct {
+	Status         string
+	StatusCode     int
+	Proto          string
+	ProtoMajor     int
+	ProtoMinor     int
+	Header         Header
+	Body           io.ReadCloser
+	ContentLength  int64
+	TransferEncoding []string
+	Close          bool
+	Uncompressed   bool
+	Trailer        Header
+	Request        *Request
+	TLS            *tls.ConnectionState
+}
+```
 
 Тело ответа доступно через поле `Body`. Но там лежат не сами данные, а структура, через которую можно их прочитать (как мы это делали на уроке «Чтение и запись»). В большинстве случаев удобно считать весь ответ в один прием через `io.ReadAll()`:
 
@@ -144,7 +162,3 @@ if err != nil {
 panic(err)
 }
 ```
-
-[песочница](https://go.dev/play/p/Ip3xU4qOgs0)
-
-> В песочнице запрещены внешние вызовы, потому код примеров выдает там ошибки. Запускайте локально, если хотите попробовать.

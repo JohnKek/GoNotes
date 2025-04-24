@@ -1,5 +1,32 @@
 ### Запросы и статусы
 
+```go
+type Request struct {
+	Method          string
+	URL             *url.URL
+	Proto           string
+	ProtoMajor      int
+	ProtoMinor      int
+	Header          Header
+	Body            io.ReadCloser
+	GetBody         func() (io.ReadCloser, error)
+	ContentLength   int64
+	TransferEncoding []string
+	Close           bool
+	Host            string
+	Form            url.Values
+	PostForm        url.Values
+	MultipartForm   *multipart.Form
+	Trailer         Header
+	RemoteAddr      string
+	RequestURI      string
+	TLS             *tls.ConnectionState
+	Cancel          <-chan struct{}
+	Response        *Response
+	Pattern         string
+}
+```
+
 За HTTP-запросы отвечает структура `http.Client`:
 
 ```go

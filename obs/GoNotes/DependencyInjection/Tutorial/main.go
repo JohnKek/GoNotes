@@ -44,12 +44,12 @@ func NewEvent(g Greeter) (Event, error) {
 	if g.Grumpy {
 		return Event{}, errors.New("could not create event: event greeter is grumpy")
 	}
-	return Event{Greeter: g}, nil
+	return Event{Greeter: &g}, nil
 }
 
 // Event is a gathering with greeters.
 type Event struct {
-	Greeter Greeter
+	Greeter *Greeter
 }
 
 // Start ensures the event starts with greeting all guests.
@@ -60,6 +60,8 @@ func (e Event) Start() {
 
 func main() {
 	e, err := InitializeEvent("hi there!")
+	g, err := InitializeEvent("hi there!")
+	_ = g
 	if err != nil {
 		fmt.Printf("failed to create event: %s\n", err)
 		os.Exit(2)

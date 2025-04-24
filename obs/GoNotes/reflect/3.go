@@ -30,7 +30,6 @@ func UpdateConfig(c interface{}, host string, port int) {
 			fmt.Printf("Unknow field type: %s\n", field.Name)
 		}
 	}
-
 }
 
 func main() {

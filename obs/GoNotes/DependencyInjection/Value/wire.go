@@ -4,7 +4,9 @@
 
 package main
 
-import "github.com/google/wire"
+import (
+	"github.com/google/wire"
+)
 
 // injectFoo - функция для внедрения зависимости Foo
 func injectFoo() Foo {

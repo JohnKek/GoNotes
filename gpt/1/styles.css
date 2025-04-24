@@ -1,0 +1,50 @@
+/* Общие стили */
+/* Скрытие курсора */
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Убираем прокрутку страницы */
+    height: 100vh;
+    width: 100vw;
+    background-color: #f0f0f0;
+    position: relative;
+    cursor: none; /* Скрываем курсор */
+}
+
+.ball {
+    width: 50px;
+    height: 50px;
+    background-color: #ff6347; /* Оранжевый цвет шарика */
+    border-radius: 50%; /* Делаем круглым */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+/* Стили для частиц */
+#particles {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    pointer-events: none; /* Частицы не должны мешать курсору */
+}
+
+.particle {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%; /* Круглая форма */
+    opacity: 0; /* Начинаем с нулевой прозрачности */
+    animation: fade-out 1s linear forwards; /* Анимация исчезновения */
+}
+
+/* Анимация для исчезновения частиц */
+@keyframes fade-out {
+    0% {
+        opacity: 1; /* Полностью видимая */
+    }
+    100% {
+        opacity: 0; /* Прозрачная */
+    }
+}
